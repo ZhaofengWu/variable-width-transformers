@@ -1,0 +1,11 @@
+wandb
+colorlog
+datasets<4
+conllu
+triton
+zstandard
+flash-attn>=2.0.0
+causal-conv1d>=1.4.0
+mamba-ssm
+torch==2.9.0
+xma
