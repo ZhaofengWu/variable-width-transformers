@@ -1,8 +1,6 @@
-# Width-Varying Language Models
+# Variable-Width Transformers
 
-This repository contains the model, configuration, and training code for width-varying transformer language models built on top of `lm_engine`.
-
-The main idea is to keep the GPT-style training stack from `lm_engine`, while allowing each transformer layer to use a different internal hidden width. This supports schedules such as grow-only, shrink-only, diamond, and X/move-up models while matching the parameter count of a uniform-width baseline.
+This repository contains the model, configuration, and training code for our paper [Variable-Width Transformers](https://arxiv.org/abs/2606.18246).
 
 ## Setup
 
